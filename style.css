@@ -61,3 +61,7 @@ button {
     align-items: center;
     width: 100%;
 }
+
+#status {
+    margin-top: 36px;
+}

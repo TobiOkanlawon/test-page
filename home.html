@@ -11,19 +11,21 @@
   <body>
     <main>
       <h1>Sign In</h1>
-      <form action="#">
+      <form id="main-form" action="#">
 	<div class="form-control">
 	  <label for="email">Email </label>
-	  <input name="email" type="text" placeholder="randomemail@email.com"/>
+	  <input id="email" data-test-id="email" name="email" type="text" placeholder="randomemail@email.com"/>
 	</div>
 	<div class="form-control">
 	  <label for="password">Password </label>
-	  <input name="password" type="text" placeholder="password"/>
+	  <input type="password" name="password" data-test-id="password" type="text" placeholder="password"/>
 	</div>
 	<div class="vertical-container">
-	  <button type="submit">Submit</button>
+	  <button data-test-id="submit" type="submit">Submit</button>
 	</div>
       </form>
+      <div id="status"><button>Sign Up button</button></div>
     </main>
+    <!-- <script src="./script.js"></script> -->
   </body>
 </html>
